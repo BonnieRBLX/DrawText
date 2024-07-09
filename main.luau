@@ -11,7 +11,8 @@ local baseDrawingObj = {
 	Thickness = 1,
 	Font = 0,
 	Position = UDim2.new(0, 0, 0, 0),
-	Size = UDim2.new(0, 0, 0, 0)
+	Size = UDim2.new(0, 0, 0, 0),
+	AnchorPoint = Vector2.new(0, 0)
 }
 
 local drawingFontsEnum = {
@@ -46,7 +47,7 @@ function DrawText.new()
 	Drawing.Name = "Drawing"
 	Drawing.DisplayOrder = math.huge
 	Drawing.IgnoreGuiInset = true
-	
+
 	spawn(function()
 		while wait() do
 			pcall(function()
@@ -55,6 +56,8 @@ function DrawText.new()
 				textLabel.TextColor3 = obj.Color
 				textLabel.Parent = Drawing
 
+				textLabel.AnchorPoint = obj.AnchorPoint
+				
 				textLabel.BackgroundTransparency = 1
 
 				textLabel.TextScaled = true

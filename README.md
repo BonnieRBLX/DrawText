@@ -4,4 +4,4 @@ To use the script:
 ```lua
 loadstring(game:HttpGet("raw.githubusercontent.com/BonnieRBLX/DrawText/main/main.luau"))("BonnieRBLX")
 ```
-And after executing the script, you can use the ```DrawText``` library. Documentation: ```https//github.com/BonnieRBLX/DrawText/main/documentation.md```
+And after executing the script, you can use the ```DrawText``` library. (https://github.com/BonnieRBLX/DrawText/blob/main/Documentation.md)

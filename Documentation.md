@@ -1,16 +1,27 @@
 # DrawText Documentation
 
 ```Text : string```
+
 ```AnchorPoint: Vector2```
+
 ```Position: UDim2```
+
 ```Size: UDim2```
+
 ```Color: Color3```
+
 ```Visible: boolean```
+
 ```Outline: boolean```
+
 ```Thickness: number```
+
 ```Font: number```
+
 ```ZIndex: number```
+
 ```Transparency: number```
+
 
 # Example
 

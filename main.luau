@@ -56,8 +56,11 @@ function DrawText.new()
 				textLabel.TextColor3 = obj.Color
 				textLabel.Parent = Drawing
 
-				textLabel.AnchorPoint = obj.AnchorPoint
+				textLabel.ZIndex = obj.ZIndex
+				textLabel.TextTransparency = obj.Transparency
 				
+				textLabel.AnchorPoint = obj.AnchorPoint
+
 				textLabel.BackgroundTransparency = 1
 
 				textLabel.TextScaled = true
